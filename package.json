@@ -1,0 +1,32 @@
+{
+  "name": "cinema",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.7.1",
+    "@emotion/react": "^11.9.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.6.0",
+    "axios": "^0.26.1",
+    "firebase": "^9.6.11",
+    "firebase-admin": "^10.0.2",
+    "fs": "^0.0.1-security",
+    "next": "12.1.4",
+    "node-cron": "^3.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-multi-carousel": "^2.8.0"
+  },
+  "devDependencies": {
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4"
+  }
+}

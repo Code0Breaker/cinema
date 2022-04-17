@@ -1,0 +1,30 @@
+.header {
+  background-color: #2e52a7;
+  height: 80px;
+  /* width: 100%; */
+}
+
+.card img {
+  filter: brightness(0.5);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card:hover h5,
+.card:hover h6 {
+  color: #2f80ed;
+  transition: 0.3s;
+}
+
+.pagination button, .pagination div{
+    color: white !important;
+}
+
+.links a{
+  color: white;
+}
+
+.card img{
+  width: 100%;
+  height: 300px !important;
+}
